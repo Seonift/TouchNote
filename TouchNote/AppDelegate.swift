@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import SwiftyBeaver
+
+let log = SwiftyBeaver.self
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +18,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Log
+        let platform = SBPlatformDestination(appID: .beaverAppId, appSecret: .beaverAppSecret, encryptionKey: .beaverEncryption)
+        log.addDestination(platform)
+        let console = ConsoleDestination()
+        let file = FileDestination()
+        file.format = "$Dyyyy-MM-dd HH:mm:ss.SSS$d $C$L$c: $M"
+        log.addDestination(console)
+        log.addDestination(file)
+        
         return true
     }
 

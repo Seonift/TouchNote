@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		743F5ADD1FF7B1A0001CE282 /* PrivateString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743F5ADC1FF7B1A0001CE282 /* PrivateString.swift */; };
+		743F5ADF1FF7B48A001CE282 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743F5ADE1FF7B48A001CE282 /* HomeVC.swift */; };
+		749F795F1FF7A94C0099FE28 /* WriteAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749F795E1FF7A94C0099FE28 /* WriteAlert.swift */; };
+		749F79631FF7AB670099FE28 /* DialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749F79621FF7AB670099FE28 /* DialogView.swift */; };
+		749F79651FF7AB810099FE28 /* DialogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 749F79641FF7AB810099FE28 /* DialogView.xib */; };
+		749F79671FF7AE880099FE28 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749F79661FF7AE880099FE28 /* DBManager.swift */; };
 		74C7FD231FF7911D008059F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C7FD221FF7911D008059F8 /* AppDelegate.swift */; };
-		74C7FD251FF7911D008059F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C7FD241FF7911D008059F8 /* ViewController.swift */; };
 		74C7FD281FF7911D008059F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C7FD261FF7911D008059F8 /* Main.storyboard */; };
 		74C7FD2A1FF7911D008059F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C7FD291FF7911D008059F8 /* Assets.xcassets */; };
 		74C7FD2D1FF7911D008059F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C7FD2B1FF7911D008059F8 /* LaunchScreen.storyboard */; };
+		74C7FD351FF791C9008059F8 /* DialogModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C7FD341FF791C9008059F8 /* DialogModal.swift */; };
+		74C7FD3B1FF7A2C2008059F8 /* MemoObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C7FD3A1FF7A2C2008059F8 /* MemoObj.swift */; };
+		B64B5FD595B7AD8B8E3A4E2F /* Pods_TouchNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A547B92BBDF278173F169E6 /* Pods_TouchNote.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		712FDB07B844A439A040B322 /* Pods-TouchNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchNote.release.xcconfig"; path = "Pods/Target Support Files/Pods-TouchNote/Pods-TouchNote.release.xcconfig"; sourceTree = "<group>"; };
+		743F5ADC1FF7B1A0001CE282 /* PrivateString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateString.swift; sourceTree = "<group>"; };
+		743F5ADE1FF7B48A001CE282 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		749F795E1FF7A94C0099FE28 /* WriteAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteAlert.swift; sourceTree = "<group>"; };
+		749F79621FF7AB670099FE28 /* DialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogView.swift; sourceTree = "<group>"; };
+		749F79641FF7AB810099FE28 /* DialogView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DialogView.xib; sourceTree = "<group>"; };
+		749F79661FF7AE880099FE28 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		74C7FD1F1FF7911D008059F8 /* TouchNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C7FD221FF7911D008059F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		74C7FD241FF7911D008059F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		74C7FD271FF7911D008059F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74C7FD291FF7911D008059F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74C7FD2C1FF7911D008059F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74C7FD2E1FF7911D008059F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74C7FD341FF791C9008059F8 /* DialogModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogModal.swift; sourceTree = "<group>"; };
+		74C7FD3A1FF7A2C2008059F8 /* MemoObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoObj.swift; sourceTree = "<group>"; };
+		8A547B92BBDF278173F169E6 /* Pods_TouchNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TouchNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE869A88D535192ABBA4B8F5 /* Pods-TouchNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchNote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TouchNote/Pods-TouchNote.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B64B5FD595B7AD8B8E3A4E2F /* Pods_TouchNote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0740D401D6F4E12589208AC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A547B92BBDF278173F169E6 /* Pods_TouchNote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		743F5AE01FF7B886001CE282 /* Dialog */ = {
+			isa = PBXGroup;
+			children = (
+				74C7FD341FF791C9008059F8 /* DialogModal.swift */,
+				749F795E1FF7A94C0099FE28 /* WriteAlert.swift */,
+				749F79621FF7AB670099FE28 /* DialogView.swift */,
+				749F79641FF7AB810099FE28 /* DialogView.xib */,
+			);
+			path = Dialog;
+			sourceTree = "<group>";
+		};
 		74C7FD161FF7911D008059F8 = {
 			isa = PBXGroup;
 			children = (
 				74C7FD211FF7911D008059F8 /* TouchNote */,
 				74C7FD201FF7911D008059F8 /* Products */,
+				B906B994A952512A06BF9CCF /* Pods */,
+				0740D401D6F4E12589208AC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +94,43 @@
 		74C7FD211FF7911D008059F8 /* TouchNote */ = {
 			isa = PBXGroup;
 			children = (
+				743F5AE01FF7B886001CE282 /* Dialog */,
+				74C7FD381FF7A2B7008059F8 /* Database */,
+				743F5ADE1FF7B48A001CE282 /* HomeVC.swift */,
 				74C7FD221FF7911D008059F8 /* AppDelegate.swift */,
-				74C7FD241FF7911D008059F8 /* ViewController.swift */,
-				74C7FD261FF7911D008059F8 /* Main.storyboard */,
 				74C7FD291FF7911D008059F8 /* Assets.xcassets */,
-				74C7FD2B1FF7911D008059F8 /* LaunchScreen.storyboard */,
 				74C7FD2E1FF7911D008059F8 /* Info.plist */,
+				743F5ADC1FF7B1A0001CE282 /* PrivateString.swift */,
+				74C7FD261FF7911D008059F8 /* Main.storyboard */,
+				74C7FD2B1FF7911D008059F8 /* LaunchScreen.storyboard */,
 			);
 			path = TouchNote;
+			sourceTree = "<group>";
+		};
+		74C7FD381FF7A2B7008059F8 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				749F79661FF7AE880099FE28 /* DBManager.swift */,
+				74C7FD391FF7A2BC008059F8 /* Objects */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		74C7FD391FF7A2BC008059F8 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				74C7FD3A1FF7A2C2008059F8 /* MemoObj.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		B906B994A952512A06BF9CCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE869A88D535192ABBA4B8F5 /* Pods-TouchNote.debug.xcconfig */,
+				712FDB07B844A439A040B322 /* Pods-TouchNote.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74C7FD311FF7911D008059F8 /* Build configuration list for PBXNativeTarget "TouchNote" */;
 			buildPhases = (
+				3F8D5C9970F1FE4E39517B06 /* [CP] Check Pods Manifest.lock */,
 				74C7FD1B1FF7911D008059F8 /* Sources */,
 				74C7FD1C1FF7911D008059F8 /* Frameworks */,
 				74C7FD1D1FF7911D008059F8 /* Resources */,
+				3E44FC6B639A65E060BB0D5B /* [CP] Embed Pods Frameworks */,
+				0EDE259C997130BF407BAE84 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,19 +197,84 @@
 			files = (
 				74C7FD2D1FF7911D008059F8 /* LaunchScreen.storyboard in Resources */,
 				74C7FD2A1FF7911D008059F8 /* Assets.xcassets in Resources */,
+				749F79651FF7AB810099FE28 /* DialogView.xib in Resources */,
 				74C7FD281FF7911D008059F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EDE259C997130BF407BAE84 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TouchNote/Pods-TouchNote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E44FC6B639A65E060BB0D5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TouchNote/Pods-TouchNote-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TouchNote/Pods-TouchNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F8D5C9970F1FE4E39517B06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TouchNote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		74C7FD1B1FF7911D008059F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74C7FD251FF7911D008059F8 /* ViewController.swift in Sources */,
+				743F5ADD1FF7B1A0001CE282 /* PrivateString.swift in Sources */,
+				749F795F1FF7A94C0099FE28 /* WriteAlert.swift in Sources */,
+				74C7FD3B1FF7A2C2008059F8 /* MemoObj.swift in Sources */,
+				743F5ADF1FF7B48A001CE282 /* HomeVC.swift in Sources */,
 				74C7FD231FF7911D008059F8 /* AppDelegate.swift in Sources */,
+				74C7FD351FF791C9008059F8 /* DialogModal.swift in Sources */,
+				749F79631FF7AB670099FE28 /* DialogView.swift in Sources */,
+				749F79671FF7AE880099FE28 /* DBManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +409,7 @@
 		};
 		74C7FD321FF7911D008059F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE869A88D535192ABBA4B8F5 /* Pods-TouchNote.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +425,7 @@
 		};
 		74C7FD331FF7911D008059F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 712FDB07B844A439A040B322 /* Pods-TouchNote.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
